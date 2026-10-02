@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Collection</title>
+    <link rel="stylesheet" href="../styles.css/styles.css">
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>My Plant Collection</h1>
+        <p>Explore my collection of plants.</p>
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <div class="buttons">
+            <button onclick="showAllPlants()">All Plants</button>
+            <button onclick="sortAlphabetically()">Sort A-Z</button>
+            <button onclick="filterBySunlight()">Filter by Sunlight</button>
+            <button onclick="filterByBloomSeason()">Filter by Bloom Season</button>
+            <button onclick="filterByHeight()">Filter by Height</button>
+            <button onclick="findPlant()">Find Plant</button>
+            <button onclick="plantStats()">Plant Stats</button>
+        </div>
+
+        <div id="plantList"></div>
+        <div id="stats"></div>
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
